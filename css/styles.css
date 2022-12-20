@@ -1,0 +1,55 @@
+/*---------------------
+
+TABLE OF CONTENTS
+
+1. Header
+2. Nav
+3. Content
+4. Footer
+5. Mobile
+
+----------------------*/
+body {
+  font-family: "Chonburi", display;
+}
+
+header {
+  background-color: black;
+}
+header h1 {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px red;
+}
+
+nav {
+  background-image: linear-gradient(gold, goldenrod);
+}
+nav ul li a:hover {
+  background-color: yellow;
+}
+
+main {
+  background-color: rgba(128, 128, 128, 0.2);
+  color: white;
+}
+main h2 {
+  margin-top: 10px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+footer {
+  background-image: linear-gradient(gold, goldenrod);
+}
+footer a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+footer p {
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: 15px;
+}/*# sourceMappingURL=styles.css.map */
